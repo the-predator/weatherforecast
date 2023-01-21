@@ -1,0 +1,89 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background: #33c4bc;
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+}
+h1{
+  font-size: 3rem;
+}
+.searchBar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.searchBar h1{
+   text-align: center
+}
+input{
+  width: 75%;
+  height: 24px;
+  margin-right: 5px;
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  background-color: rgba(252, 252, 252, 0.2);
+  border-radius: 3px;
+  padding: 10px 15px;
+  color: white;
+}
+.mid{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0,0,0,0.6);
+  padding: 15px;
+  border-radius: 10px;
+}
+.mid img{
+  height: 70px;
+  width: 70px;
+}
+.mid h3{
+  margin: 5px;
+}
+.descriptions{
+  margin-top: 30px;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 200px;
+  height: 50px;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+}
+.card h5, h2{
+  margin: 2px;
+  text-align: center;
+}
+.forecast{
+  display: flex;
+  margin-top: 50px;
+  padding: 15px;
+}
+.forecastCard{
+  width: 90px;
+  margin: 5px;
+  padding: 5px;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 5px;
+}
+.forecastCard h4{
+  text-align: center;
+  margin: 2px;
+}
+.forecast img{
+  width: 50px;
+  height: 50px;
+  margin-left: 18px;
+}
